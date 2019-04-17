@@ -6,12 +6,14 @@
 
 age = int(input("how old are you"))
 
-if age >= 1:
+if age >= 5:
 
-    print("you can watch this movie.")
+    print("you can watch every movie.")
+
 
 elif age >= 12:
     print("you can watch 12 rated movies")
+
 elif age >= 18:
-    print("you can watch any movie")
+    print("you can watch 18+ any movie")
 

@@ -1,11 +1,20 @@
-for fizzbuzz in range(50): #numners between 50#
-    if fizzbuzz % 3 == 0:
-        print("fizz")
+print("Welcome To FizzBuzz")
+
+number_1 = (int(input("Enter A Starting Number ")))
+number_2 = (int(input("Enter A Ending Number ")))
+
+for num in range (number_1, number_2):
+
+    if num % 3 == 0 and num % 5 == 0:
+        print("FizzBuzz")
         continue
-    elif fizzbuzz % 5 == 0:
-        print("buzz")
+    elif num % 3 == 0:
+        print("Fizz")
         continue
-    print(fizzbuzz)
+    elif num % 5 == 0:
+        print("Buzz")
+        continue
+    print(num)
 
 # the continue statement rejects all interations of the look#
 # and returns control to the top of the loop.#
