@@ -18,3 +18,8 @@ print(type(my_list[0]))
 
 
 print(f"I Like {my_list [4]}")
+
+#how to remove opjects from a list#
+my_list.pop(5)
+print(my_list)
+
